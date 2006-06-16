@@ -1,0 +1,14 @@
+DESCRIPTION="Open Source GLUT implementation"
+HOMEPAGE="http://freeglut.sourceforge.net/"
+SRC_URI="http://easynews.dl.sourceforge.net/${PN}/${P}.tar.gz"
+
+WANT_AUTOMAKE=1.6	# should be 1.5
+
+CYGCONF_ARGS='--disable-static --disable-warnings --enable-replace-glut'
+
+HTMLDOCS='doc/*.html doc/*.png'
+
+PKG_NAMES="${PN} libglut3"
+PKG_HINTS="setup runtime"
+PKG_CONTENTS[0]='--exclude=usr/bin/*.dll usr/'
+PKG_CONTENTS[1]='usr/bin/*.dll'
