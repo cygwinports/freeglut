@@ -1,4 +1,3 @@
-diff -urN -x CYGWIN-PATCHES -x 'aclocal.m4*' -x ltmain.sh -x 'config.*' -x depcomp -x install-sh -x missing -x mkinstalldirs -x autom4te.cache -x '*compile' -x 'intltool*.in' -x 'xml-i18n-*.in' -x '*.pyc' -x '*.mo' -x '*.gmo' -x ABOUT-NLS -x Makevars.template -x COPYING -x INSTALL -x '*.orig' -x '*.rej' -x '*~' -x '*.temp' -x 'Makefile.in*' -x configure freeglut-2.4.0-orig/configure.ac freeglut-2.4.0/configure.ac
 --- freeglut-2.4.0-orig/configure.ac	2005-06-09 20:05:33.000000000 -0500
 +++ freeglut-2.4.0/configure.ac	2006-05-12 17:09:31.285750000 -0500
 @@ -4,7 +4,7 @@
@@ -10,7 +9,6 @@ diff -urN -x CYGWIN-PATCHES -x 'aclocal.m4*' -x ltmain.sh -x 'config.*' -x depco
  
  # Compatibility hack for older autoconf versions
  m4_ifdef([AS_HELP_STRING], [], [AC_DEFUN([AS_HELP_STRING], [AC_HELP_STRING($][@)])])
-diff -urN -x CYGWIN-PATCHES -x 'aclocal.m4*' -x ltmain.sh -x 'config.*' -x depcomp -x install-sh -x missing -x mkinstalldirs -x autom4te.cache -x '*compile' -x 'intltool*.in' -x 'xml-i18n-*.in' -x '*.pyc' -x '*.mo' -x '*.gmo' -x ABOUT-NLS -x Makevars.template -x COPYING -x INSTALL -x '*.orig' -x '*.rej' -x '*~' -x '*.temp' -x 'Makefile.in*' -x configure freeglut-2.4.0-orig/include/GL/freeglut_std.h freeglut-2.4.0/include/GL/freeglut_std.h
 --- freeglut-2.4.0-orig/include/GL/freeglut_std.h	2005-01-01 10:09:38.000000000 -0600
 +++ freeglut-2.4.0/include/GL/freeglut_std.h	2006-05-12 18:14:45.567000000 -0500
 @@ -35,7 +35,7 @@
@@ -31,7 +29,6 @@ diff -urN -x CYGWIN-PATCHES -x 'aclocal.m4*' -x ltmain.sh -x 'config.*' -x depco
  #   define  GLUT_STROKE_ROMAN               ((void *)0x0000)
  #   define  GLUT_STROKE_MONO_ROMAN          ((void *)0x0001)
  #   define  GLUT_BITMAP_9_BY_15             ((void *)0x0002)
-diff -urN -x CYGWIN-PATCHES -x 'aclocal.m4*' -x ltmain.sh -x 'config.*' -x depcomp -x install-sh -x missing -x mkinstalldirs -x autom4te.cache -x '*compile' -x 'intltool*.in' -x 'xml-i18n-*.in' -x '*.pyc' -x '*.mo' -x '*.gmo' -x ABOUT-NLS -x Makevars.template -x COPYING -x INSTALL -x '*.orig' -x '*.rej' -x '*~' -x '*.temp' -x 'Makefile.in*' -x configure freeglut-2.4.0-orig/src/Makefile.am freeglut-2.4.0/src/Makefile.am
 --- freeglut-2.4.0-orig/src/Makefile.am	2005-04-26 08:38:27.000000000 -0500
 +++ freeglut-2.4.0/src/Makefile.am	2006-05-12 17:59:52.457625000 -0500
 @@ -42,7 +42,7 @@
@@ -43,7 +40,6 @@ diff -urN -x CYGWIN-PATCHES -x 'aclocal.m4*' -x ltmain.sh -x 'config.*' -x depco
  lib@LIBRARY@_la_CFLAGS = $(X_CFLAGS)
  
  INCLUDES = -I$(top_srcdir)/include
-diff -urN -x CYGWIN-PATCHES -x 'aclocal.m4*' -x ltmain.sh -x 'config.*' -x depcomp -x install-sh -x missing -x mkinstalldirs -x autom4te.cache -x '*compile' -x 'intltool*.in' -x 'xml-i18n-*.in' -x '*.pyc' -x '*.mo' -x '*.gmo' -x ABOUT-NLS -x Makevars.template -x COPYING -x INSTALL -x '*.orig' -x '*.rej' -x '*~' -x '*.temp' -x 'Makefile.in*' -x configure freeglut-2.4.0-orig/src/freeglut_internal.h freeglut-2.4.0/src/freeglut_internal.h
 --- freeglut-2.4.0-orig/src/freeglut_internal.h	2005-06-02 17:39:32.000000000 -0500
 +++ freeglut-2.4.0/src/freeglut_internal.h	2006-05-12 17:36:05.629500000 -0500
 @@ -42,7 +42,7 @@
