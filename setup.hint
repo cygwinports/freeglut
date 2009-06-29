@@ -1,5 +1,5 @@
 category: X11
-requires: cygwin mesa
+requires: mesa
 sdesc: "OpenGL Utility Toolkit library (development, docs)"
 ldesc: "freeglut is a completely OpenSourced alternative to the OpenGL
 Utility Toolkit (GLUT) library. GLUT was originally written by Mark
